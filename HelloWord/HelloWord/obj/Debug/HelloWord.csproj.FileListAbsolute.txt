@@ -1,0 +1,7 @@
+D:\C-AndDotNet\HelloWord\HelloWord\bin\Debug\HelloWord.exe.config
+D:\C-AndDotNet\HelloWord\HelloWord\bin\Debug\HelloWord.exe
+D:\C-AndDotNet\HelloWord\HelloWord\bin\Debug\HelloWord.pdb
+D:\C-AndDotNet\HelloWord\HelloWord\obj\Debug\HelloWord.csprojAssemblyReference.cache
+D:\C-AndDotNet\HelloWord\HelloWord\obj\Debug\HelloWord.csproj.CoreCompileInputs.cache
+D:\C-AndDotNet\HelloWord\HelloWord\obj\Debug\HelloWord.exe
+D:\C-AndDotNet\HelloWord\HelloWord\obj\Debug\HelloWord.pdb
