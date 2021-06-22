@@ -882,3 +882,12 @@ D:\C-AndDotNet\InAndOut\InAndOut\obj\Debug\net5.0\InAndOut.dll
 D:\C-AndDotNet\InAndOut\InAndOut\obj\Debug\net5.0\ref\InAndOut.dll
 D:\C-AndDotNet\InAndOut\InAndOut\obj\Debug\net5.0\InAndOut.pdb
 D:\C-AndDotNet\InAndOut\InAndOut\obj\Debug\net5.0\InAndOut.genruntimeconfig.cache
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.AspNetCore.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Formatting.Compact.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+D:\C-AndDotNet\InAndOut\InAndOut\bin\Debug\net5.0\Serilog.Sinks.File.dll

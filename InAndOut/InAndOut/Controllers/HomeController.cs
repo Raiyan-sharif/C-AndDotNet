@@ -20,6 +20,8 @@ namespace InAndOut.Controllers
 
         public IActionResult Index()
         {
+            throw new Exception();
+
             return View();
         }
 
