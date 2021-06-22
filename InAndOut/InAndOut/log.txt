@@ -1,0 +1,360 @@
+2021-06-21 20:53:01.902 +06:00 [INF] Application Started
+2021-06-21 20:53:03.404 +06:00 [INF] User profile is available. Using 'C:\Users\rsharif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-06-21 20:53:03.787 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-06-21 20:53:03.787 +06:00 [INF] Hosting environment: Development
+2021-06-21 20:53:03.787 +06:00 [INF] Content root path: D:\C-AndDotNet\InAndOut\InAndOut
+2021-06-21 20:53:03.827 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2021-06-21 20:53:03.851 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.HomeController.Index (InAndOut)'
+2021-06-21 20:53:03.886 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.HomeController (InAndOut).
+2021-06-21 20:53:03.954 +06:00 [INF] Executing action method InAndOut.Controllers.HomeController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:53:03.960 +06:00 [INF] Executed action method InAndOut.Controllers.HomeController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4852ms.
+2021-06-21 20:53:04.000 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:53:04.107 +06:00 [INF] Executed ViewResult - view Index executed in 140.1709ms.
+2021-06-21 20:53:04.108 +06:00 [INF] Executed action InAndOut.Controllers.HomeController.Index (InAndOut) in 221.451ms
+2021-06-21 20:53:04.108 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.HomeController.Index (InAndOut)'
+2021-06-21 20:53:04.127 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 301.3630ms
+2021-06-21 20:53:06.303 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ExpenseType - -
+2021-06-21 20:53:06.305 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:53:06.307 +06:00 [INF] Route matched with {action = "Index", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:53:06.503 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:53:06.504 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.984ms.
+2021-06-21 20:53:06.506 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:53:06.920 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:53:07.479 +06:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:53:07.528 +06:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:53:07.533 +06:00 [INF] Executed ViewResult - view Index executed in 1028.6762ms.
+2021-06-21 20:53:07.534 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) in 1227.1218ms
+2021-06-21 20:53:07.534 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:53:07.544 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ExpenseType - - - 200 - text/html;+charset=utf-8 1240.6664ms
+2021-06-21 20:54:31.878 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ExpenseType/Create - -
+2021-06-21 20:54:31.887 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Create (InAndOut)'
+2021-06-21 20:54:31.894 +06:00 [INF] Route matched with {action = "Create", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:31.908 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:31.908 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1342ms.
+2021-06-21 20:54:31.930 +06:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 20:54:31.999 +06:00 [INF] Executed ViewResult - view Create executed in 91.5049ms.
+2021-06-21 20:54:32.000 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Create (InAndOut) in 105.7032ms
+2021-06-21 20:54:32.000 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Create (InAndOut)'
+2021-06-21 20:54:32.000 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ExpenseType/Create - - - 200 - text/html;+charset=utf-8 122.0509ms
+2021-06-21 20:54:32.009 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2021-06-21 20:54:32.009 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/lib/jquery-validation/dist/jquery.validate.min.js - -
+2021-06-21 20:54:32.013 +06:00 [INF] The file /lib/jquery-validation/dist/jquery.validate.min.js was not modified
+2021-06-21 20:54:32.013 +06:00 [INF] The file /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js was not modified
+2021-06-21 20:54:32.014 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 304 - application/javascript 5.8814ms
+2021-06-21 20:54:32.014 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/lib/jquery-validation/dist/jquery.validate.min.js - - - 304 - application/javascript 5.8814ms
+2021-06-21 20:54:38.958 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44363/ExpenseType/Create application/x-www-form-urlencoded 190
+2021-06-21 20:54:38.960 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Create (InAndOut)'
+2021-06-21 20:54:38.972 +06:00 [INF] Route matched with {action = "Create", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(InAndOut.Models.ExpenseType) on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:39.022 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:39.041 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:39.147 +06:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ExpenseTypes] ([Name])
+VALUES (@p0);
+SELECT [Id]
+FROM [ExpenseTypes]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-06-21 20:54:39.169 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 146.8689ms.
+2021-06-21 20:54:39.170 +06:00 [INF] Executing RedirectResult, redirecting to /ExpenseType.
+2021-06-21 20:54:39.170 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Create (InAndOut) in 197.3834ms
+2021-06-21 20:54:39.170 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Create (InAndOut)'
+2021-06-21 20:54:39.170 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44363/ExpenseType/Create application/x-www-form-urlencoded 190 - 302 - - 212.0562ms
+2021-06-21 20:54:39.172 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ExpenseType - -
+2021-06-21 20:54:39.172 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:54:39.172 +06:00 [INF] Route matched with {action = "Index", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:39.183 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:39.184 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0251ms.
+2021-06-21 20:54:39.184 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:54:39.189 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:39.190 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:54:39.190 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:54:39.191 +06:00 [INF] Executed ViewResult - view Index executed in 7.4955ms.
+2021-06-21 20:54:39.191 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) in 19.0375ms
+2021-06-21 20:54:39.191 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:54:39.192 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ExpenseType - - - 200 - text/html;+charset=utf-8 19.7341ms
+2021-06-21 20:54:42.365 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ExpenseType/Delete/5 - -
+2021-06-21 20:54:42.365 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Delete (InAndOut)'
+2021-06-21 20:54:42.366 +06:00 [INF] Route matched with {action = "Delete", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:42.380 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Delete (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:42.381 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:42.469 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-06-21 20:54:42.470 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Delete (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 89.6809ms.
+2021-06-21 20:54:42.480 +06:00 [INF] Executing ViewResult, running view Delete.
+2021-06-21 20:54:42.488 +06:00 [INF] Executed ViewResult - view Delete executed in 18.1451ms.
+2021-06-21 20:54:42.488 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Delete (InAndOut) in 122.1079ms
+2021-06-21 20:54:42.488 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Delete (InAndOut)'
+2021-06-21 20:54:42.489 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ExpenseType/Delete/5 - - - 200 - text/html;+charset=utf-8 123.7537ms
+2021-06-21 20:54:44.151 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44363/ExpenseType/DeletePost application/x-www-form-urlencoded 187
+2021-06-21 20:54:44.151 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.DeletePost (InAndOut)'
+2021-06-21 20:54:44.152 +06:00 [INF] Route matched with {action = "DeletePost", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePost(System.Nullable`1[System.Int32]) on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:44.165 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.DeletePost (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:44.165 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:44.167 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-06-21 20:54:44.241 +06:00 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [ExpenseTypes]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-06-21 20:54:44.244 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.DeletePost (InAndOut), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 79.1837ms.
+2021-06-21 20:54:44.244 +06:00 [INF] Executing RedirectResult, redirecting to /ExpenseType.
+2021-06-21 20:54:44.244 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.DeletePost (InAndOut) in 91.8645ms
+2021-06-21 20:54:44.244 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.DeletePost (InAndOut)'
+2021-06-21 20:54:44.245 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44363/ExpenseType/DeletePost application/x-www-form-urlencoded 187 - 302 - - 94.5122ms
+2021-06-21 20:54:44.246 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ExpenseType - -
+2021-06-21 20:54:44.246 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:54:44.246 +06:00 [INF] Route matched with {action = "Index", controller = "ExpenseType"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseTypeController (InAndOut).
+2021-06-21 20:54:44.258 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:44.258 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseTypeController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0191ms.
+2021-06-21 20:54:44.259 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:54:44.259 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:44.260 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:54:44.260 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:54:44.261 +06:00 [INF] Executed ViewResult - view Index executed in 2.1127ms.
+2021-06-21 20:54:44.261 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseTypeController.Index (InAndOut) in 14.2141ms
+2021-06-21 20:54:44.261 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseTypeController.Index (InAndOut)'
+2021-06-21 20:54:44.261 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ExpenseType - - - 200 - text/html;+charset=utf-8 14.6546ms
+2021-06-21 20:54:46.805 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/ - -
+2021-06-21 20:54:46.805 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.HomeController.Index (InAndOut)'
+2021-06-21 20:54:46.805 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.HomeController (InAndOut).
+2021-06-21 20:54:46.818 +06:00 [INF] Executing action method InAndOut.Controllers.HomeController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:46.818 +06:00 [INF] Executed action method InAndOut.Controllers.HomeController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0225ms.
+2021-06-21 20:54:46.818 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:54:46.819 +06:00 [INF] Executed ViewResult - view Index executed in 0.8743ms.
+2021-06-21 20:54:46.819 +06:00 [INF] Executed action InAndOut.Controllers.HomeController.Index (InAndOut) in 14.033ms
+2021-06-21 20:54:46.819 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.HomeController.Index (InAndOut)'
+2021-06-21 20:54:46.820 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/ - - - 200 - text/html;+charset=utf-8 14.5880ms
+2021-06-21 20:54:47.502 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Home/Privacy - -
+2021-06-21 20:54:47.503 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.HomeController.Privacy (InAndOut)'
+2021-06-21 20:54:47.503 +06:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller InAndOut.Controllers.HomeController (InAndOut).
+2021-06-21 20:54:47.515 +06:00 [INF] Executing action method InAndOut.Controllers.HomeController.Privacy (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:47.515 +06:00 [INF] Executed action method InAndOut.Controllers.HomeController.Privacy (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1206ms.
+2021-06-21 20:54:47.517 +06:00 [INF] Executing ViewResult, running view Privacy.
+2021-06-21 20:54:47.519 +06:00 [INF] Executed ViewResult - view Privacy executed in 3.3795ms.
+2021-06-21 20:54:47.519 +06:00 [INF] Executed action InAndOut.Controllers.HomeController.Privacy (InAndOut) in 15.3738ms
+2021-06-21 20:54:47.519 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.HomeController.Privacy (InAndOut)'
+2021-06-21 20:54:47.519 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Home/Privacy - - - 200 - text/html;+charset=utf-8 16.8899ms
+2021-06-21 20:54:48.549 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Item - -
+2021-06-21 20:54:48.549 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ItemController.Index (InAndOut)'
+2021-06-21 20:54:48.550 +06:00 [INF] Route matched with {action = "Index", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ItemController (InAndOut).
+2021-06-21 20:54:48.565 +06:00 [INF] Executing action method InAndOut.Controllers.ItemController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:48.565 +06:00 [INF] Executed action method InAndOut.Controllers.ItemController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4856ms.
+2021-06-21 20:54:48.567 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:54:48.570 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:48.613 +06:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Borrower], [i].[ItemName], [i].[Lender]
+FROM [Items] AS [i]
+2021-06-21 20:54:48.624 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Borrower], [i].[ItemName], [i].[Lender]
+FROM [Items] AS [i]
+2021-06-21 20:54:48.625 +06:00 [INF] Executed ViewResult - view Index executed in 59.4433ms.
+2021-06-21 20:54:48.625 +06:00 [INF] Executed action InAndOut.Controllers.ItemController.Index (InAndOut) in 74.6481ms
+2021-06-21 20:54:48.625 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ItemController.Index (InAndOut)'
+2021-06-21 20:54:48.626 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Item - - - 200 - text/html;+charset=utf-8 76.7590ms
+2021-06-21 20:54:50.206 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Item/Create - -
+2021-06-21 20:54:50.207 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ItemController.Create (InAndOut)'
+2021-06-21 20:54:50.207 +06:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller InAndOut.Controllers.ItemController (InAndOut).
+2021-06-21 20:54:50.221 +06:00 [INF] Executing action method InAndOut.Controllers.ItemController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:50.221 +06:00 [INF] Executed action method InAndOut.Controllers.ItemController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1386ms.
+2021-06-21 20:54:50.223 +06:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 20:54:50.233 +06:00 [INF] Executed ViewResult - view Create executed in 12.0495ms.
+2021-06-21 20:54:50.233 +06:00 [INF] Executed action InAndOut.Controllers.ItemController.Create (InAndOut) in 25.4639ms
+2021-06-21 20:54:50.233 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ItemController.Create (InAndOut)'
+2021-06-21 20:54:50.233 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Item/Create - - - 200 - text/html;+charset=utf-8 27.1475ms
+2021-06-21 20:54:55.248 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44363/Item/Create application/x-www-form-urlencoded 216
+2021-06-21 20:54:55.249 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ItemController.Create (InAndOut)'
+2021-06-21 20:54:55.251 +06:00 [INF] Route matched with {action = "Create", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(InAndOut.Models.Item) on controller InAndOut.Controllers.ItemController (InAndOut).
+2021-06-21 20:54:55.265 +06:00 [INF] Executing action method InAndOut.Controllers.ItemController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:55.265 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:55.282 +06:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Items] ([Borrower], [ItemName], [Lender])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Items]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-06-21 20:54:55.284 +06:00 [INF] Executed action method InAndOut.Controllers.ItemController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 19.1211ms.
+2021-06-21 20:54:55.284 +06:00 [INF] Executing RedirectResult, redirecting to /Item.
+2021-06-21 20:54:55.284 +06:00 [INF] Executed action InAndOut.Controllers.ItemController.Create (InAndOut) in 32.7321ms
+2021-06-21 20:54:55.284 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ItemController.Create (InAndOut)'
+2021-06-21 20:54:55.285 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44363/Item/Create application/x-www-form-urlencoded 216 - 302 - - 36.8698ms
+2021-06-21 20:54:55.287 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Item - -
+2021-06-21 20:54:55.287 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ItemController.Index (InAndOut)'
+2021-06-21 20:54:55.287 +06:00 [INF] Route matched with {action = "Index", controller = "Item"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ItemController (InAndOut).
+2021-06-21 20:54:55.299 +06:00 [INF] Executing action method InAndOut.Controllers.ItemController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:55.299 +06:00 [INF] Executed action method InAndOut.Controllers.ItemController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0159ms.
+2021-06-21 20:54:55.299 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:54:55.300 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:54:55.301 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Borrower], [i].[ItemName], [i].[Lender]
+FROM [Items] AS [i]
+2021-06-21 20:54:55.302 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[Borrower], [i].[ItemName], [i].[Lender]
+FROM [Items] AS [i]
+2021-06-21 20:54:55.303 +06:00 [INF] Executed ViewResult - view Index executed in 3.4655ms.
+2021-06-21 20:54:55.303 +06:00 [INF] Executed action InAndOut.Controllers.ItemController.Index (InAndOut) in 15.2387ms
+2021-06-21 20:54:55.303 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ItemController.Index (InAndOut)'
+2021-06-21 20:54:55.303 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Item - - - 200 - text/html;+charset=utf-8 15.7827ms
+2021-06-21 20:54:59.983 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Expense - -
+2021-06-21 20:54:59.983 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:54:59.984 +06:00 [INF] Route matched with {action = "Index", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:54:59.996 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:54:59.997 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:00.017 +06:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:00.031 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__obj_ExpenseTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__obj_ExpenseTypeId_0
+2021-06-21 20:55:00.035 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 38.2174ms.
+2021-06-21 20:55:00.036 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:55:00.042 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:00.042 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:00.044 +06:00 [INF] Executed ViewResult - view Index executed in 8.8361ms.
+2021-06-21 20:55:00.044 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Index (InAndOut) in 60.0889ms
+2021-06-21 20:55:00.044 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:55:00.044 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Expense - - - 200 - text/html;+charset=utf-8 61.3145ms
+2021-06-21 20:55:02.423 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Expense/Create - -
+2021-06-21 20:55:02.423 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Create (InAndOut)'
+2021-06-21 20:55:02.424 +06:00 [INF] Route matched with {action = "Create", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:02.438 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:02.439 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:02.439 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2073ms.
+2021-06-21 20:55:02.441 +06:00 [INF] Executing ViewResult, running view Create.
+2021-06-21 20:55:02.509 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Name] AS [Text], CONVERT(VARCHAR(11), [e].[Id]) AS [Value]
+FROM [ExpenseTypes] AS [e]
+2021-06-21 20:55:02.518 +06:00 [INF] Executed ViewResult - view Create executed in 78.4421ms.
+2021-06-21 20:55:02.518 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Create (InAndOut) in 93.7086ms
+2021-06-21 20:55:02.518 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Create (InAndOut)'
+2021-06-21 20:55:02.518 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Expense/Create - - - 200 - text/html;+charset=utf-8 95.3933ms
+2021-06-21 20:55:11.554 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44363/Expense/Create application/x-www-form-urlencoded 248
+2021-06-21 20:55:11.556 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Create (InAndOut)'
+2021-06-21 20:55:11.558 +06:00 [INF] Route matched with {action = "Create", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(InAndOut.Models.ViewModels.ExpenseVM) on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:11.597 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Create (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:11.597 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:11.608 +06:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Double), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Expenses] ([Amount], [ExpenseName], [ExpenseTypeId])
+VALUES (@p0, @p1, @p2);
+SELECT [Id]
+FROM [Expenses]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-06-21 20:55:11.610 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Create (InAndOut), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 12.9891ms.
+2021-06-21 20:55:11.610 +06:00 [INF] Executing RedirectResult, redirecting to /Expense.
+2021-06-21 20:55:11.610 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Create (InAndOut) in 51.8537ms
+2021-06-21 20:55:11.610 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Create (InAndOut)'
+2021-06-21 20:55:11.610 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44363/Expense/Create application/x-www-form-urlencoded 248 - 302 - - 55.9454ms
+2021-06-21 20:55:11.612 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Expense - -
+2021-06-21 20:55:11.612 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:55:11.612 +06:00 [INF] Route matched with {action = "Index", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:11.625 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:11.625 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:11.625 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:11.626 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__obj_ExpenseTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__obj_ExpenseTypeId_0
+2021-06-21 20:55:11.627 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__obj_ExpenseTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__obj_ExpenseTypeId_0
+2021-06-21 20:55:11.627 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0302ms.
+2021-06-21 20:55:11.627 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:55:11.627 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:11.627 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:11.628 +06:00 [INF] Executed ViewResult - view Index executed in 1.1205ms.
+2021-06-21 20:55:11.628 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Index (InAndOut) in 15.7084ms
+2021-06-21 20:55:11.628 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:55:11.628 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Expense - - - 200 - text/html;+charset=utf-8 16.1520ms
+2021-06-21 20:55:16.263 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Expense/Delete/3 - -
+2021-06-21 20:55:16.263 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Delete (InAndOut)'
+2021-06-21 20:55:16.264 +06:00 [INF] Route matched with {action = "Delete", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:16.276 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Delete (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:16.277 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:16.280 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-06-21 20:55:16.280 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Delete (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.8073ms.
+2021-06-21 20:55:16.282 +06:00 [INF] Executing ViewResult, running view Delete.
+2021-06-21 20:55:16.295 +06:00 [INF] Executed ViewResult - view Delete executed in 14.8253ms.
+2021-06-21 20:55:16.295 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Delete (InAndOut) in 30.9043ms
+2021-06-21 20:55:16.295 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Delete (InAndOut)'
+2021-06-21 20:55:16.296 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Expense/Delete/3 - - - 200 - text/html;+charset=utf-8 32.3151ms
+2021-06-21 20:55:19.145 +06:00 [INF] Request starting HTTP/2 POST https://localhost:44363/Expense/DeletePost application/x-www-form-urlencoded 187
+2021-06-21 20:55:19.145 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.DeletePost (InAndOut)'
+2021-06-21 20:55:19.146 +06:00 [INF] Route matched with {action = "DeletePost", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePost(System.Nullable`1[System.Int32]) on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:19.159 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.DeletePost (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:19.159 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:19.161 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-06-21 20:55:19.164 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Expenses]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2021-06-21 20:55:19.178 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.DeletePost (InAndOut), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 19.6548ms.
+2021-06-21 20:55:19.178 +06:00 [INF] Executing RedirectResult, redirecting to /Expense.
+2021-06-21 20:55:19.179 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.DeletePost (InAndOut) in 32.2291ms
+2021-06-21 20:55:19.179 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.DeletePost (InAndOut)'
+2021-06-21 20:55:19.180 +06:00 [INF] Request finished HTTP/2 POST https://localhost:44363/Expense/DeletePost application/x-www-form-urlencoded 187 - 302 - - 34.3903ms
+2021-06-21 20:55:19.181 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/Expense - -
+2021-06-21 20:55:19.181 +06:00 [INF] Executing endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:55:19.181 +06:00 [INF] Route matched with {action = "Index", controller = "Expense"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller InAndOut.Controllers.ExpenseController (InAndOut).
+2021-06-21 20:55:19.194 +06:00 [INF] Executing action method InAndOut.Controllers.ExpenseController.Index (InAndOut) - Validation state: "Valid"
+2021-06-21 20:55:19.194 +06:00 [INF] Entity Framework Core 5.0.7 initialized 'ApplicationDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-06-21 20:55:19.195 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:19.195 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[@__obj_ExpenseTypeId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Name]
+FROM [ExpenseTypes] AS [e]
+WHERE [e].[Id] = @__obj_ExpenseTypeId_0
+2021-06-21 20:55:19.195 +06:00 [INF] Executed action method InAndOut.Controllers.ExpenseController.Index (InAndOut), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1845ms.
+2021-06-21 20:55:19.195 +06:00 [INF] Executing ViewResult, running view Index.
+2021-06-21 20:55:19.196 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:19.197 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[Amount], [e].[ExpenseName], [e].[ExpenseTypeId]
+FROM [Expenses] AS [e]
+2021-06-21 20:55:19.197 +06:00 [INF] Executed ViewResult - view Index executed in 1.6898ms.
+2021-06-21 20:55:19.197 +06:00 [INF] Executed action InAndOut.Controllers.ExpenseController.Index (InAndOut) in 15.8667ms
+2021-06-21 20:55:19.197 +06:00 [INF] Executed endpoint 'InAndOut.Controllers.ExpenseController.Index (InAndOut)'
+2021-06-21 20:55:19.197 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/Expense - - - 200 - text/html;+charset=utf-8 16.3132ms
+2021-06-21 20:55:25.995 +06:00 [INF] Request starting HTTP/2 GET https://localhost:44363/test - -
+2021-06-21 20:55:25.996 +06:00 [INF] Request finished HTTP/2 GET https://localhost:44363/test - - - 404 - - 1.0268ms
+2021-06-21 21:34:11.323 +06:00 [INF] Application Started
+2021-06-21 21:35:52.463 +06:00 [INF] Application Started
+2021-06-21 21:35:54.182 +06:00 [INF] User profile is available. Using 'C:\Users\rsharif\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
