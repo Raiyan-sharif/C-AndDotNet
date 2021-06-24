@@ -1,0 +1,16 @@
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.exe
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.deps.json
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.runtimeconfig.json
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.runtimeconfig.dev.json
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\ref\OOPCSharp.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\OOPCSharp.pdb
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.csproj.AssemblyReference.cache
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.AssemblyInfoInputs.cache
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.AssemblyInfo.cs
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.csproj.CoreCompileInputs.cache
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\ref\OOPCSharp.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.pdb
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.genruntimeconfig.cache
