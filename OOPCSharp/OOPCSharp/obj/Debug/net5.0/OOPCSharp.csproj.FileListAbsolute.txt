@@ -14,3 +14,6 @@ D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.dll
 D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\ref\OOPCSharp.dll
 D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.pdb
 D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.genruntimeconfig.cache
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\ExcelDataReader.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\bin\Debug\net5.0\ExcelDataReader.DataSet.dll
+D:\C-AndDotNet\OOPCSharp\OOPCSharp\obj\Debug\net5.0\OOPCSharp.csproj.CopyComplete

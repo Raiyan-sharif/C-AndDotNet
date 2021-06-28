@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+F91SGYTvt3t5toaE1Vz6OGSD9wlCa2c21DN/mltviC8PfAg+gjBCi+5p+i5x06ZqStkmj7i5IUM7GW21f6uTA==",
+  "dgSpecHash": "z8GjeqG07kS4AVkvjsVwdGFZjm1utxhA/l9A9Txq+bFc8Kj3nc4xBoVI47lhY1ljCsm+Rswpcro+xCH/PSnf6w==",
   "success": true,
   "projectFilePath": "D:\\C-AndDotNet\\OOPCSharp\\OOPCSharp\\OOPCSharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rsharif\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
+    "C:\\Users\\rsharif\\.nuget\\packages\\exceldatareader.dataset\\3.6.0\\exceldatareader.dataset.3.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
